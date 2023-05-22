@@ -1,0 +1,26 @@
+﻿<Window x:Class="TextEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextEditor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnOpen" Content="開啟檔案" HorizontalAlignment="Left" Margin="27,28,0,0" VerticalAlignment="Top" Height="20" Width="60"/>
+        <Button Content="存檔" HorizontalAlignment="Left" Margin="107,28,0,0" VerticalAlignment="Top" Width="50" Height="20"/>
+        <Button Content="B" HorizontalAlignment="Left" Margin="438,28,0,0" VerticalAlignment="Top" Width="20" Height="20"/>
+        <Button Content="I" HorizontalAlignment="Left" Margin="469,28,0,0" VerticalAlignment="Top" Width="20
+                " Height="20"/>
+        <Button Content="U" HorizontalAlignment="Left" Margin="501,28,0,0" VerticalAlignment="Top" Width="20" Height="20"/>
+        <RichTextBox Height="NaN" Margin="0,63,0,0">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <ComboBox HorizontalAlignment="Left" Margin="186,28,0,0" VerticalAlignment="Top" Width="115" Height="20"/>
+        <ComboBox HorizontalAlignment="Left" Margin="309,27,0,0" VerticalAlignment="Top" Width="115" Height="20"/>
+    </Grid>
+</Window>
