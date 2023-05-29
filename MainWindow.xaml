@@ -7,20 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnOpen" Content="開啟檔案" HorizontalAlignment="Left" Margin="27,28,0,0" VerticalAlignment="Top" Height="20" Width="60" Click="btnOpen_Click"/>
-        <Button x:Name="btnSave" Content="存檔" HorizontalAlignment="Left" Margin="107,28,0,0" VerticalAlignment="Top" Width="50" Height="20" Click="btnSave_Click"/>
-        <Button x:Name="btnBold" Content="B" HorizontalAlignment="Left" Margin="438,28,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="btnBold_Click"/>
-        <Button x:Name="btnItalic" Content="I" HorizontalAlignment="Left" Margin="469,28,0,0" VerticalAlignment="Top" Width="20
-                " Height="20" Click="btnItalic_Click"/>
-        <Button x:Name="btnUnderline" Content="U" HorizontalAlignment="Left" Margin="501,28,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="btnUnderline_Click"/>
-        <RichTextBox x:Name="rtbText" Height="NaN" Margin="0,63,0,0">
+        <Button x:Name="btnOpen" Content="開啟檔案" HorizontalAlignment="Left" Margin="27,28,0,0" VerticalAlignment="Top" Height="20" Width="60"/>
+        <Button Content="存檔" HorizontalAlignment="Left" Margin="107,28,0,0" VerticalAlignment="Top" Width="50" Height="20"/>
+        <Button Content="B" HorizontalAlignment="Left" Margin="438,28,0,0" VerticalAlignment="Top" Width="20" Height="20"/>
+        <Button Content="I" HorizontalAlignment="Left" Margin="469,28,0,0" VerticalAlignment="Top" Width="20
+                " Height="20"/>
+        <Button Content="U" HorizontalAlignment="Left" Margin="501,28,0,0" VerticalAlignment="Top" Width="20" Height="20"/>
+        <RichTextBox Height="NaN" Margin="0,63,0,0">
             <FlowDocument>
                 <Paragraph>
                     <Run Text="RichTextBox"/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <ComboBox x:Name="cmbFontFamily" HorizontalAlignment="Left" Margin="186,28,0,0" VerticalAlignment="Top" Width="115" Height="20"/>
-        <ComboBox x:Name="cmbFontSize" HorizontalAlignment="Left" Margin="309,27,0,0" VerticalAlignment="Top" Width="115" Height="20"/>
+        <ComboBox HorizontalAlignment="Left" Margin="186,28,0,0" VerticalAlignment="Top" Width="115" Height="20"/>
+        <ComboBox HorizontalAlignment="Left" Margin="309,27,0,0" VerticalAlignment="Top" Width="115" Height="20"/>
     </Grid>
 </Window>
